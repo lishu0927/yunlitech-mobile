@@ -1,0 +1,224 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>tjyt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <script type="text/javascript" src="js/offline.js"></script>
+</head>
+<body class="s-bg-ddd pc no-3d">
+    <div class="u-alert">
+        <img style="display:none;" src="images/loading.gif">
+        <div class="alert-loading z-move">
+            <div class="cycleWrap"><span class="cycle cycle-1"></span>
+                <span class="cycle cycle-2"></span><span class="cycle cycle-3"></span><span class="cycle cycle-4"></span>
+            </div>
+            <div class="lineWrap"><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span>
+            </div>
+        </div>
+    </div>
+    <div class="u-arrow">
+        <p class="css_sprite01"></p>
+    </div>
+    <div class="mp3" onclick="play()">
+        <audio src="Summer.mp3" id="audio" loop="loop" autoplay="autoplay">您的浏览器不支持</audio>
+        <div>
+            <img src="images/mp31.png" id="audioimg"   alt="">
+        </div>
+    </div>
+    <script>
+        var  audio=document.getElementById("audio");
+        var  audioimg=document.getElementById('audioimg');
+        function play(){
+            if(audio.paused){
+                audio.play();
+                audioimg.setAttribute('class','ani');
+            }else {
+                audio.pause();
+                audioimg.setAttribute('class','');
+            }
+        }
+
+
+    </script>
+
+    <div class="p-ct transformNode-2d" >
+        <div class="translate-back">
+            <section class="m-page m-fengye"  data-statics="info_pic3">
+                <div class="page-con lazy-finish" data-position="50% 50%" data-size="cover">
+                    <div class="shouye center-content">
+                        <div class="mask wow animated fadeInUpBig" data-wow-duration="2s" >
+                            <div class="title">
+                                <h2 class="wow animated fadeInUpBig" data-wow-duration="2s" >
+                                    公司简介
+                                </h2>
+                            </div>
+                            <p  class=" wow animated zoomIn" data-wow-duration="2s" data-wow-delay="1.5s">
+                                武汉天际云图科技有限公司（SkyAtlas）成立于2012年，是武汉一家致力于移动互联技术开发的
+                                创新公司，坐落在武汉市江汉区经济开发区江兴路25号A栋10层A501号。
+                                公司经营范围:计算机软硬件技术研发、服务、咨询及批发兼零售;计算机系统集成;办公用品、电子产品、通讯设备技术研发及批发兼零售;商务信息咨询；设计、制作、发布、代理国内各类广告业务。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="m-page  f-hide" data-statics="info_list">
+                <div class="page-con page-con-2 lazy-finish" data-position="50% 50%" data-size="cover">
+                    <div class="timearis center-content ">
+                        <ul>
+                            <li>
+                                <div >
+                                    <div class="title-img"><img src="images/ball.png" alt=""></div>
+                                    <div class="title-line wow animated zoomIn"data-wow-delay="1.5s" data-wow-duration="1.5s"></div>
+                                    <div class="title fl wow animated bounceInDown" data-wow-duration="2s"><strong>网页设计</strong></div>
+                                    <p class="wow animated fadeInRightBig" data-wow-delay="1s" data-wow-duration="2s">根据企业希望向浏览者传递的信息（包括产品、服务、理念、文化），进行网站功能策划。作为企业对外宣传物料的其中一种，精美的网页设计，对于提升企业的互联网品牌形象至关重要。</p>
+                                </div>
+                            </li>
+                            <li >
+                                <div >
+                                    <div class="title-img"><img src="images/ball.png" alt=""></div>
+                                    <div class="title-line wow animated zoomIn"data-wow-delay="1.5s" data-wow-duration="1.5s"></div>
+                                    <div class="title wow animated bounceInDown" data-wow-duration="2s"><strong>应用程序开发</strong></div>
+                                    <p class="wow animated fadeInRightBig" data-wow-delay="1s" data-wow-duration="2s">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="title-img"><img src="images/ball.png" alt=""></div>
+                                    <div class="title-line wow animated zoomIn"data-wow-delay="1.5s" data-wow-duration="1.5s"></div>
+                                    <div class="title wow animated bounceInDown" data-wow-duration="2s"><strong>搜索引擎优化服务</strong></div>
+                                    <p  class="wow animated fadeInRightBig " data-wow-delay="1s" data-wow-duration="2s">Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div style="height: 50px;margin-top: -5%" >
+                                    <div class="title-img"><img src="images/ball.png" alt=""></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--关于-->
+            <section class="m-page  f-hide"  data-statics="info_list">
+                <div class="page-con  lazy-finish" data-position="50% 50%" data-size="cover" >
+                    <div class="about center-content">
+                        <div  class="wish">
+                            <div class="line wow animated bounceInUp" data-wow-duration="2s"></div>
+                            <div class="wow animated fadeInRightBig" data-wow-delay="200ms" data-wow-duration="2s">
+                                <h2>我们的愿景</h2>
+                                <p style="line-height: 30px">以移动互联思维和技术改善零售基因</p>
+                            </div>
+                            <div class="line wow animated bounceInUp" data-wow-duration="2s"></div>
+                        </div>
+                       <div class="wish wow animated bounceInDown"  data-wow-duration="2s">
+                           <div class="lis linetl"></div>
+                           <div class="lis linetr"></div>
+                           <div class="lis linebl"></div>
+                           <div class="lis linebr"></div>
+                           <div class="wow animated fadeInLeftBig" data-wow-delay="200ms" data-wow-duration="2s">
+                               <h2>我们的核心价值</h2>
+                               <p style="padding-left: 0px;line-height: 30px">客户为首，用心服务<br> 以德为本，立德立人
+                                   <br>不断创新，共同进步<br>重诺守信，诚信为本<br>
+                               </p>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--作品-->
+            <section class="m-page f-hide" data-statics="info_list">
+                <div class="page-con  lazy-finish" data-position="50% 50%" data-size="cover" >
+                    <div class="work center-content">
+                        <div class="title">
+                            <h2 class=" wow animated fadeInDownBig"  data-wow-duration="2s" >
+                                作品展示
+                            </h2>
+                        </div>
+                        <div class="works">
+                            <div class="fr  wow animated fadeInLeftBig"  data-wow-duration="2s">
+                                <img src="images/01.png"  alt=""   >
+                            </div>
+                            <div class="fl wow animated fadeInRightBig"  data-wow-duration="2s">
+                                <img src="images/02.png"    alt=""  >
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="m-page  f-hide"  data-statics="info_list">
+                <div class="page-con  lazy-finish" data-position="50% 50%" data-size="cover" >
+                    <div class="work center-content">
+                        <div class="title">
+                            <h2 class=" wow animated fadeInDownBig"  data-wow-duration="2s" >
+                                作品展示
+                            </h2>
+                        </div>
+                        <div class="works">
+                            <div class="fr  wow animated fadeInLeftBig"  data-wow-duration="2s">
+                                <img src="images/03.png"  alt=""   >
+                            </div>
+                            <div class="fl wow animated fadeInRightBig"  data-wow-duration="2s">
+                                <img src="images/04.png"    alt=""  >
+                            </div >
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="m-page  f-hide"  data-statics="info_list">
+                <div class="page-con  lazy-finish" data-position="50% 50%" data-size="cover" >
+                    <div class="contact center-content">
+                        <div class="title">
+                            <h2 class=" wow animated fadeInDownBig"  data-wow-duration="2s" >
+                                联系我们
+                            </h2>
+                        </div>
+                        <div class="form wow animated zoomInUp"  data-wow-duration="2s">
+                            <input type="text" value="" placeholder="您的姓名">
+                            <input type="text" value="" placeholder="您的手机">
+                            <input type="text" value="" placeholder="您的邮箱">
+                            <textarea name="" id="" cols="20" rows="10" placeholder="留言..."></textarea>
+                            <input type="button"   value="提交">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="m-page  f-hide"  data-statics="info_list">
+                <div class="page-con  lazy-finish" data-position="50% 50%" data-size="cover" >
+                    <div class="address center-content">
+                        <div class="title">
+                            <h2 class=" wow animated fadeInRight"  data-wow-duration="1.5s" >
+                                我们的地址
+                            </h2>
+                        </div>
+                        <div class="img wow animated fadeInLeft" data-wow-duration="1.5s">
+                            <img src="images/location.png" alt="">
+                        </div>
+                        <div class="conn wow animated fadeInDownBig"  data-wow-duration="2s">
+                            <p>联 系 人：刘刚 （先生）</p>
+                            <p>联系电话：027-0000000</p>
+                            <p>公司地址：武汉市江汉区经济开发区江兴路25号A栋10层A501号</p>
+                            <p>公司网站：武汉天际云图科技有限公司</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        </div>
+    </div>
+    <script src="js/init.mix.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/main.js"></script>
+    <script src="js/coffee.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/99_main.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

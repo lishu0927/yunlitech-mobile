@@ -1,0 +1,295 @@
+html {
+    height: 100%;
+    font-size: 12px;
+}
+body {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    color:#e0e0e0 ;
+}
+.img{
+    width: 100%;
+    text-align: center;
+}
+.img img{
+    width: 100%;
+    margin: 10% 0;
+}
+body h1,body h2,body h3,body h4,body h5,body h6,body strong,body em {
+    font-weight:normal;
+} /*微软雅体 将原有的bold属性去掉*/
+
+.center-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    width: 80%;
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.16);
+    color: #e0e0e0;
+    padding:2% 5%  8% ;
+}
+
+.title{
+    font-size: 2.3rem;
+    font-family: "微软雅黑";
+    text-align: center;
+    width: 100%;
+    margin: 5% 0;
+}
+.shouye p{
+    text-indent: 2em;
+    letter-spacing: 1px;
+    font-size:1.4rem;
+}
+/*-----------------------page-con-1 end------------------------------------------*/
+
+.page-con-2 .timearis{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.timearis ul li{
+    position: relative;
+    margin:-2px 0 ;
+}
+
+.timearis ul li>div{
+    position: relative;
+    overflow: hidden;
+    padding-left: 50px;
+}
+.timearis ul li .title-img{
+    position: absolute;
+    top:3%;
+    left:0;
+    width: 68px;
+    opacity: 0;
+    -webkit-transition: all 1s ;
+}
+.timearis ul li .title-img img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.timearis ul li .title-line{
+    position: absolute;
+    top:40px;
+    left:18px;
+    width:2px;
+    height:100%;
+    background: url(../images/line.png) repeat-y ;
+}
+.timearis ul li .title{
+    font-size: 1.6rem;
+    text-align: left;
+    padding: 3% 0;
+    margin: 0;
+
+}
+.timearis ul li p{
+    font-size: 1.1rem;
+    line-height: 150%;
+    padding-bottom: 5%;
+}
+@media screen and (max-height: 480px){
+    .timearis ul li p{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 375px){
+   html{
+       font-size: 14px;
+   }
+}
+@media screen and (min-width: 414px){
+    html{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 600px){
+    html{
+        font-size: 22px;
+    }
+    .page-con-1 p{
+        line-height: 55px;
+    }
+}
+/*----------------------------------page-con-2 end-------------------------------------*/
+.about{
+    text-align: center;
+}
+.about .value h2,.about .wish h2{
+    font-size: 1.8rem;
+    font-family: "微软雅黑";
+    font-weight: bold;
+
+}
+.about .value h2,.about .wish p{
+    font-size: 1.3rem;
+    font-family: "微软雅黑";
+    font-weight:100;
+    color: #b2b2b2;
+
+}
+.about .wish{
+    padding: 10%;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10%;
+}
+.about .wish .line{
+    width: 100%;
+    height: 2px;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+}
+.about .wish .lis{
+    position: absolute;
+    width: 20%;
+    height: 30px;
+}
+
+.about .wish .linetl{
+    top: 0;
+    left: 0;
+    border-top: 4px solid #e0e0e0 ;
+    border-left: 4px solid #e0e0e0;
+}
+.about .wish .linetr{
+    top: 0;
+    right: 0;
+    border-top: 4px solid #e0e0e0 ;
+    border-right: 4px solid #e0e0e0;
+}
+.about .wish .linebl{
+    bottom: 0;
+    left: 0;
+    border-bottom: 4px solid #e0e0e0 ;
+    border-left: 4px solid #e0e0e0;
+}
+.about .wish .linebr{
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #e0e0e0 ;
+    border-right: 4px solid #e0e0e0;
+}
+/*work*/
+.work{
+    min-height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------about end---------------------------------*/
+.form{
+    padding-top: 10%;
+}
+.form input,.form textarea{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid #0b64ff;
+    background-color: #e0e0e0;
+    font-size: 1.3rem;
+}
+.form textarea{
+    height: 60px;
+}
+.form input[type=button]{
+    background-color: #0b64ff;
+    color: #e0e0e0;
+}
+
+
+.conn p{
+    font-size: 1.3rem;
+    line-height: 150%;
+}
+.works{
+    width: 100%;
+}
+.works div{
+    width: 80%;
+    margin: 10px 0;
+}
+.works div img{
+    width: 100%;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+
+
+
+
+
+.mp3{
+    position: fixed;
+    top:20px;
+    right: 20px;
+    width: 32px;
+    height: 36px;
+    z-index: 1000;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+    text-align: center;
+}
+.mp3 div{
+    width: 30px;
+    height: 35px;
+    margin-left:1px ;
+}
+
+
+.mp3 div img{
+    width: 100%;
+    height: 100%;
+}
+.ani{
+    -webkit-animation: ani 6s infinite linear ;
+    -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes ani {
+    0%{
+       -webkit-transform: rotate(0deg);
+    }
+    25%{
+        -webkit-transform: rotate(90deg);
+    }
+    50%{
+        -webkit-transform: rotate(180deg);
+    }
+    75%{
+        -webkit-transform: rotate(270deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
